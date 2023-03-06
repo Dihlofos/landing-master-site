@@ -15,7 +15,7 @@ function created(): void {
 }
 
 function onDownload(name: string): void {
-	const link = `${BASE_URL}/site/${name}`;
+	const link = `${BASE_URL}/siteAsFile/${name}`;
 	saveFile(link);
 }
 
